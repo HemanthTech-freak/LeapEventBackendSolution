@@ -51,34 +51,34 @@ LeapEvent/
 git clone https://github.com/your-username/leapeventbackendsolution.git
 git clone https://github.com/your-username/leapeventuisolution.git
 cd leapevent
-
+```
 ## 🔧 Backend Setup (.NET API)
 
 ### 📁 Step 1: Navigate to the Backend Folder
 
 ```bash
 cd LeapEvent/LeapEvent/LeapEventSolution
-
+```
 ### 📦 Step 2: Restore & Build
 
 ```bash
 dotnet restore
 dotnet build
-
+```
 ### 🗃️ Step 3: Setup SQLite Database (Ensure the db file exists in below path)
 
 ```bash
 LeapEvent.API/Data/SkillsAssessmentEvents.db
-
+```
 --If not, you can:
 
-Copy a pre-seeded version of SkillsAssessmentEvents.db
+--Copy a pre-seeded version of SkillsAssessmentEvents.db
 
 ### ▶️ Step 4: Run the API
 
 ```bash
 dotnet run --project LeapEvent.API
-
+```
 --Your API will be running at: https://localhost:7034/
 
 <img width="1151" height="548" alt="image" src="https://github.com/user-attachments/assets/02c26564-1ab5-4309-9f8d-e08a54c7e841" />
@@ -98,22 +98,22 @@ GET http://localhost:5000/api/tickets/top-by-revenue
 
 ```bash
 cd ../../../../leap-events-ui
-
+```
 ### 📦 Step 2: Install Angular CLI
 
 ```bash
 npm install -g @angular/cli
-
+```
 ### 📦 Step 3: Install Dependencies
 
 ```bash
 npm install
-
+```
 ### ▶️ Step 4: Run the Angular App
 
 ```bash
 ng serve --open
-
+```
 --App will launch at: http://localhost:4200
 --Make sure the backend is running on https://localhost:7034/
 
@@ -126,12 +126,12 @@ ng serve --open
 
 ```bash
 cd LeapEvent.Tests
-
+```
 ### ▶️ Run all tests
 
 ```bash
 dotnet test
-
+```
 <img width="659" height="302" alt="image" src="https://github.com/user-attachments/assets/d0baff51-2cac-4391-9b09-41266bf98745" />
 
 
