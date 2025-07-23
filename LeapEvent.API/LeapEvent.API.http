@@ -1,0 +1,6 @@
+@LeapEvent.API_HostAddress = http://localhost:5034
+
+GET {{LeapEvent.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
